@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "print": "markdown-pdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matsui Masashi <matsui@kaffeine.jp>",
