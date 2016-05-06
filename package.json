@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "textlint",
     "print": "markdown-pdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matsui Masashi <matsui@kaffeine.jp>",
   "license": "ISC",
   "devDependencies": {
-    "markdown-pdf": "^7.0.0"
+    "markdown-pdf": "^7.0.0",
+    "textlint": "^6.5.1",
+    "textlint-rule-max-ten": "^2.0.1",
+    "textlint-rule-no-mix-dearu-desumasu": "^2.2.1",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
   }
 }
