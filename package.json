@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matsui Masashi <matsui@kaffeine.jp>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "markdown-pdf": "^7.0.0"
+  }
 }
