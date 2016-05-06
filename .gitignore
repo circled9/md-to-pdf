@@ -1,4 +1,3 @@
 node_modules
-*.md
-*.markdown
-*.pdf
+docs/*.md
+docs/*.pdf

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "textlint",
-    "print": "markdown-pdf",
+    "lint": "textlint docs/*.md",
+    "print": "markdown-pdf docs/*.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matsui Masashi <matsui@kaffeine.jp>",
