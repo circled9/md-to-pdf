@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "textlint docs/*.md",
-    "print": "markdown-pdf docs/*.md",
+    "print": "markdown-pdf docs/*.md -s styles.css -z node_modules/markdown-styles/layouts/github/assets/css/hljs-github.min.css",
     "concat": "node css/concat.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "markdown-pdf": "^7.0.0",
+    "markdown-styles": "^3.1.6",
     "textlint": "^6.5.1",
     "textlint-rule-max-ten": "^2.0.1",
     "textlint-rule-no-mix-dearu-desumasu": "^2.2.1",
