@@ -4,7 +4,7 @@ MarkdownをPDFに変換するやつです。
 
 ## Getting Started
 
-docs以下に ***.md** を置いて `npm run print` すると、いい感じに ***.pdf** にしてくれます。
+docs以下に **.md** を置いて `npm run print` すると、いい感じに **.pdf** にしてくれます。
 
 ### Prerequisities
 
