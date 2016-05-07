@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf styles.css docs/*.pdf",
     "lint": "textlint docs/*.md",
-    "print": "markdown-pdf docs/*.md -s styles.css -z node_modules/markdown-styles/layouts/github/assets/css/hljs-github.min.css",
+    "clean": "rimraf styles.css docs/*.pdf",
     "concat": "node css/concat.js",
+    "preprint": "npm run lint && npm run clean && npm run concat",
+    "print": "markdown-pdf docs/*.md -s styles.css -z node_modules/markdown-styles/layouts/github/assets/css/hljs-github.min.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matsui Masashi <matsui@kaffeine.jp>",
