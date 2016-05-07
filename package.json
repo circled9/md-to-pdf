@@ -12,6 +12,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matsui Masashi <matsui@kaffeine.jp>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/circled9/md-to-pdf"
+  },
+  "bugs": {
+    "url": "https://github.com/circled9/md-to-pdf/issues"
+  },
   "license": "ISC",
   "devDependencies": {
     "markdown-pdf": "^7.0.0",
