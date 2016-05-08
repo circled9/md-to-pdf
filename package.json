@@ -21,6 +21,7 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "concat-files": "^0.1.0",
     "markdown-pdf": "^7.0.0",
     "markdown-styles": "^3.1.6",
     "rimraf": "^2.5.2",
