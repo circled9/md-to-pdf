@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run print",
+    "test": "npm run lint",
     "lint": "textlint docs/*.md",
     "clean": "rimraf styles.css docs/*.pdf",
     "concat": "node css/concat.js",
     "preprint": "npm run lint && npm run clean && npm run concat",
-    "print": "markdown-pdf docs/*.md -s styles.css -z node_modules/markdown-styles/layouts/github/assets/css/hljs-github.min.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "print": "markdown-pdf docs/*.md -s styles.css -z node_modules/markdown-styles/layouts/github/assets/css/hljs-github.min.css"
   },
   "author": "Matsui Masashi <matsui@kaffeine.jp>",
   "repository": {
